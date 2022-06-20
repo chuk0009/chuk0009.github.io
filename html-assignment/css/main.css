@@ -3,27 +3,33 @@ body {
     font-size: 18px;
 }
 
-header, footer
-
-footer p{
-    color: green;
-    background-color: rgba(13, 12, 56, 0.5);
+header, footer{
+    background-color: red;
 }
 
-.error {
-    font-weight: bold;
+.site-title{
+    color:green
 }
 
-#sucess {
-    font-style: italic;
+#myimage{
+    box-shadow: 0 0 2px 1px;
+}
+ 
+li { 
+    list-style-type: square;
 }
 
-.underline {
-    border-bottom: 1px cadetblue;
+li:nth-child(odd) {
+    background-color: blue;
 }
 
-main>h1 {
-    font-size: 2rem;
+a:link {
+    background-color: yellowgreen;
+    text-decoration: none;
+    border: 2px solid;
 }
 
-
+a:hover {
+    background-color:aqua ;
+    text-decoration: none;
+}
