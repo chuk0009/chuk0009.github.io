@@ -18,11 +18,11 @@ body{
     font-size: 1rem;
     color: white;
 }
-/* Sets the second title image and determines the width measurement*/
+/* Sets the second title image and determines the width measurement.*/
 .site-title img{
     width: 100%;
 }
-/* This helps to center the content within a webpage*/
+/* This helps to center the content within a webpage.*/
 .wrapper{
     width: 800px;
     margin: auto;
