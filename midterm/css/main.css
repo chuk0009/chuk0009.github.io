@@ -1,0 +1,61 @@
+/* Elememt that contains the contents from a HTML document*/
+body{
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sets the position of the title and text*/
+.site-title{
+    position: relative;
+    text-align: center;
+}
+
+/* Sets the position of the h1 title, determines the size of the fonts and also chooses the color of the font*/
+.site-title h1{
+    position: absolute;
+    top: 50%; 
+    left: 45%;
+    font-size: 1rem;
+    color: white;
+}
+/* Sets the second title image and determines the width measurement*/
+.site-title img{
+    width: 100%;
+}
+/* This helps to center the content within a webpage*/
+.wrapper{
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    background-color: #cdfffc;
+}
+/*This adds colors to the hyperlink*/ 
+a:link{
+    text-decoration: none;
+    color: black;
+}
+/* This is used to select elements when moving the mouse over them.*/
+a:hover{
+    text-decoration: none;
+    color: darkred;
+}
+/* this is to position the the image with the right measurement and margin*/
+#my-image{
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+/* This is to make the table of content inline*/
+nav{
+    display: inline;
+}
+/* This is to space the table of content and add a margin to it.*/
+nav a{
+    display: inline-block;
+    padding: 2px;
+    margin: 0 100px 0 100px;
+}
+/* This is to align the text to the right of the work space*/
+footer{
+    text-align: right;
+}

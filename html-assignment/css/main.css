@@ -3,25 +3,6 @@ body {
     font-size: 18px;
 }
 
-header, footer{
-    background-color: red;
-}
-
-.site-title{
-    color:green
-}
-
-#myimage{
-    box-shadow: 0 0 2px 1px;
-}
- 
-li { 
-    list-style-type: square;
-}
-
-li:nth-child(odd) {
-    background-color: blue;
-}
 
 a:link {
     background-color: yellowgreen;
