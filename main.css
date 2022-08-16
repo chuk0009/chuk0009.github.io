@@ -1,15 +1,124 @@
-.box1{
+/* ttp://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0%;
+	padding: 0%; 
+	border: 0%;
+	font-size: 100%;
+	vertical-align: baseline;
+    font-family: sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+
+    color: white;
+    font-size:  80px;
+    
+}
+
+
+.welcome{
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+
+.box{
+    background-color: rgba(0, 0, 0, 0.462);
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    justify-content: center;
+    align-content: center;
+    right: 100px;
+    
+}
+
+
+.header{
+    background-color: black; /*changes the background to black*/
+    height: 150px;
+    width: boundless;
+    justify-content: center;
+    align-content: space-between;
+    display: flex;
+}
+
+
+a{
     background-color: black;
-    width: 300px; ;
-    height:700px ;
+    font-display: #c78c06;
+    height: 20px;
+    justify-content: center;
+    align-content: center;
 
 }
 
-title{
-
+.box2{
+    background-color: #ffe6ac; 
 }
-li{
-    background-color: black;
-    background-image: main-banner.JPG;
+
+
+
+.about-us{
+    background-color: #ffe6ac;
+}
+
+.contain{
+    width: boundless;
+    height: 600px;
+    background-color: #ffe6ac;
+    display: flex;
+}
+.box3{
+    display: grid;
+    grid-template-columns: repeat(3px 1fr);
+    grid-template-rows: repeat(3px 1fr);
 
 }
